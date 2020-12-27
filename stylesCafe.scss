@@ -1,0 +1,111 @@
+body {
+	background-color: black
+}
+.carousel-item {
+	width: 600px;
+	height: 600px;
+	 min-width: 500px;
+   min-height: 500px;
+   margin: 1px 50px 1px 650px
+}
+.TituloPreguntasFrecuentes {
+	color: #9fff;
+}
+.ParrafoPreguntasFrecuentes {
+	color: #ffff;
+}
+.Parrafo3 {
+	color:#ffff
+}
+.NombreCafeMenu {
+	color: #ffff;
+	font-style: italic;
+}
+.img-contenedor img {
+	-webkit-transition:all .7s ease; /* Safari y Chrome */
+	-moz-transition:all .7s ease; /* Firefox */
+	-o-transition:all .7s ease; /* IE 9 */
+	-ms-transition:all .7s ease; /* Opera */
+	width:100%;
+	}
+	.MarginParaMedio{
+	margin-left: 500px;
+		
+	margin-top: 100px;
+}
+	.img-contenedor:hover img {
+	-webkit-transform:scale(2.25);
+	-moz-transform:scale(2.25);
+	-ms-transform:scale(2.25);
+	-o-transform:scale(2.25);
+	transform:scale(2.25);
+	}/*ancho y altura de la imagen*/
+	.img-contenedor {
+		border-radius: 40px;
+	width:800px;
+	height:600px;
+	overflow:hidden;
+	@extend .MarginParaMedio
+	
+	}
+	$ColorFondoReserva: background-color #ffff;
+	.marginParaReservas{
+		margin-left: 300px;
+		margin-top: 100px;
+		margin-right: 300px;
+		margin-bottom: 100px;
+		color: rgb(255, 255, 255);
+		background-image: url("https://allegra.flowersetcfresno.com/pic/477465_full-fondos-de-pantalla-hd-cafe-coffee-typography-wallpapers-hd-desktop-and-mobile-backgrounds.jpg");
+		border-radius: 60px;
+		padding: #fff;
+	}
+	.ReservasStyles {
+	@extend .marginParaReservas
+	}
+	.SedesImagenes {
+		 max-width: 500px;
+		max-height: 500px;
+		min-width: 500px;
+		min-height: 500px;
+		border-radius: 20px;
+		overflow: hidden;
+		margin: 100px 100px 100px 100px;
+	}
+	.ImagenSede1 {
+		justify-content: center;
+	}
+	.Parrafo1Sedes{
+		color: #fff;
+		width: 500px;
+	}
+	/*
+	Empieza Tienda Regalos
+	*/ 
+	.Imagen1regalos {
+		width: 500px;
+		height: 500px;
+		border-radius: 20px;
+		overflow: hidden;
+	}
+	.Imagen2Regalos {
+		float: right;
+		border: 3px solid #ffffff;
+		padding: 10px;
+		 @extend .Imagen1regalos
+		
+	}
+	.Imagen3Regalos {
+		float: left;
+			border: 3px solid #ffffff;
+			padding: 10px;
+			@extend .Imagen1regalos
+	}
+	.TextoRegalosCafe {
+		color: #ffff;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-style: italic;
+		font-size: larger;
+		width: 300px;
+		margin-left: 500px;
+		margin-right: 200px;
+	}

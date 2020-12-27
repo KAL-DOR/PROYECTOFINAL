@@ -1,0 +1,109 @@
+<!DOCTYPE>
+<html>
+<head>
+<title> NANYCAFE </title>
+	<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesCafe.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark primary-color">
+
+  
+  <a class="navbar-brand"  class="NombreCafeMenu">NanyCafe</a>
+
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div class="collapse navbar-collapse" id="basicExampleNav">
+
+    
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="IndexCafe.html">Inicio
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="IndexCafe.html">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="reservas.html">Reservas</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="sedes.html">Sedes</a>
+      </li>
+     
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Tienda De Regalos</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="TiendaRegalos1.html">Cafe</a>
+          <a class="dropdown-item" href="#">Camisetas</a>
+          <a class="dropdown-item" href="#">Vajilla</a>
+        </div>
+      </li>
+
+    </ul>
+    
+
+    <form class="form-inline">
+      <div class="md-form my-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      </div>
+    </form>
+  </div>
+</nav>
+
+
+<div class="ReservasStyles">
+<form class="ReservasStyles">
+    <fieldset>
+        <legend>Informacion De Reserva:</legend>
+        <label>¿Hay Menores De Edad?:</label>
+            <br>
+        <label>Si, ¿Cuantos?:</label>
+        <input type="text" name="¿Hay Menores De Edad?:"  placeholder="1,5,3 etc"/>
+                <label>No:</label>
+            <input type="radio" name="¿Hay Menores De Edad?" value="No"/>
+            <br>
+            <label>Nombre Y Apellido:</label>
+    <input type="text" name="nombre" placeholder="Nombre Y Apellido">
+    <br>
+            <label>E-Mail:</label>
+<input type="text" name="Apellido" placeholder="Ejem=pepe@gmail.com">
+<form>
+    <label>Restaurantes</label>
+    <select name="Talla">
+    <option>Cafe 1</option>
+    <option>Cafe 2</option>
+    <option>Cafe 3 3</option>
+    <option>Reserva De Local Completo</option>
+
+ </select>
+ <br>
+ <form>
+     <label>¿Acepta terminos y condiciones?</label>
+     <input type="checkbox" name="¿Acepta?" value="1">
+ </form>
+ <form>
+     <input type="submit" value="Enviar Formulario">
+     <input type="reset" value="Limpiar Formulario">
+
+ </form>
+</form>
+
+    </fieldset>
+</form>
+</div>
+
+</body>
+</html>
